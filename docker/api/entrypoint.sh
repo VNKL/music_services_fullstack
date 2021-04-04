@@ -3,7 +3,7 @@
 
 python manage.py collectstatic --noinput
 python manage.py makemigrations --noinput
-python manage.py migrate --fake-initial --noinput
+python manage.py migrate --noinput
 python manage.py init_admin
 python manage.py init_accounts
 python manage.py continue_tasks
