@@ -20,6 +20,6 @@ COPY nginx.conf /etc/nginx/conf.d
 
 COPY --from=builder usr/src/front/build /usr/share/nginx/html
 
-EXPOSE 90
+EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
