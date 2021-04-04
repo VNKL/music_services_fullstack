@@ -50,4 +50,4 @@ services:
       - api
       - nginx
     ports:
-      - "90:80"
+      - "80:80"
