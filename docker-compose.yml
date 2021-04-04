@@ -27,8 +27,6 @@ services:
       - DB_PORT=5432
       - DJANGO_SECRET_KEY=y&2c-*0hg^#at)k&kiv*9&1n)3hz^(uem%e&=7x7#x87qyw2t8
       - PRODUCTION=1
-    volumes:
-    - ./volumes/api:/usr/src/api
     depends_on:
       - db
     ports:
